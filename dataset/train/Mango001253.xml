@@ -1,0 +1,25 @@
+<annotation>
+  <folder></folder>
+  <filename>Mango001253.png</filename>
+  <source>
+    <database>Unknown</database>
+    <annotation>Unknown</annotation>
+    <image>Unknown</image>
+  </source>
+  <size>
+    <width>320</width>
+    <height>258</height>
+    <depth></depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Mango</name>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>119.4</xmin>
+      <ymin>53.4</ymin>
+      <xmax>209.4</xmax>
+      <ymax>200.2</ymax>
+    </bndbox>
+  </object>
+</annotation>

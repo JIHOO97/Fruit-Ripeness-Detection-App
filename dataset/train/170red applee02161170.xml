@@ -1,0 +1,45 @@
+<annotation>
+  <folder>obj</folder>
+  <filename>obj_train_data/170red applee02161170.png</filename>
+  <source>
+    <database>Unknown</database>
+    <annotation>Unknown</annotation>
+    <image>Unknown</image>
+  </source>
+  <size>
+    <width>480</width>
+    <height>322</height>
+    <depth></depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Apple</name>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>236.9</xmin>
+      <ymin>0.0</ymin>
+      <xmax>360.1</xmax>
+      <ymax>94.3</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Apple</name>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>77.6</xmin>
+      <ymin>1.2</ymin>
+      <xmax>183.8</xmax>
+      <ymax>106.5</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Apple</name>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>144.8</xmin>
+      <ymin>63.1</ymin>
+      <xmax>275.9</xmax>
+      <ymax>166.2</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,25 @@
+<annotation>
+  <folder>obj</folder>
+  <filename>obj_train_data/494red applee00901494.png</filename>
+  <source>
+    <database>Unknown</database>
+    <annotation>Unknown</annotation>
+    <image>Unknown</image>
+  </source>
+  <size>
+    <width>480</width>
+    <height>322</height>
+    <depth></depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Apple</name>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>195.0</xmin>
+      <ymin>98.2</ymin>
+      <xmax>325.1</xmax>
+      <ymax>239.3</ymax>
+    </bndbox>
+  </object>
+</annotation>

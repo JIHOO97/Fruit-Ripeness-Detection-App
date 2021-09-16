@@ -1,0 +1,35 @@
+<annotation>
+  <folder>obj</folder>
+  <filename>obj_train_data/obj_train_data/Apple E0242.png</filename>
+  <source>
+    <database>Unknown</database>
+    <annotation>Unknown</annotation>
+    <image>Unknown</image>
+  </source>
+  <size>
+    <width>320</width>
+    <height>258</height>
+    <depth></depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Apple</name>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>203.2</xmin>
+      <ymin>20.0</ymin>
+      <xmax>264.1</xmax>
+      <ymax>96.2</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Apple</name>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>25.2</xmin>
+      <ymin>99.8</ymin>
+      <xmax>90.9</xmax>
+      <ymax>175.5</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+  <folder>D:\Object_detection_data\obj\Orange_img</folder>
+  <filename>Orange00714.png</filename>
+  <path>D:\Object_detection_data\obj\Orange_img</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>480</width>
+    <height>322</height>
+    <depth/>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Orange</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>217</xmin>
+      <ymin>115</ymin>
+      <xmax>367</xmax>
+      <ymax>271</ymax>
+    </bndbox>
+  </object>
+</annotation>
