@@ -1,2 +1,4 @@
 # Fruit-Ripeness-Detection-App
-Detect fruits and analyze its ripeness using deep learning
+
+[![Watch the video]](https://youtu.be/vt5fpE0bzSY)
+
