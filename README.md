@@ -1,4 +1,4 @@
-# Fruit-Ripeness-Detection-App
+# Fruit Ripeness Detection App
 
 **Watch Demo Here**
 
