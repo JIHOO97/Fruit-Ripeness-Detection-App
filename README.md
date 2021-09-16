@@ -1,4 +1,4 @@
 # Fruit-Ripeness-Detection-App
 
-![Watch the video](https://youtu.be/vt5fpE0bzSY)
+![Demo](https://github.com/JIHOO97/Fruit-Ripeness-Detection-App/blob/main/video.mp4)
 
