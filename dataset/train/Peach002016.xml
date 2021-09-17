@@ -1,21 +1,20 @@
 <annotation>
-  <folder>D:\Object_detection_data\obj\Peach_img</folder>
+  <folder>D:\Fruit-Ripeness-Detection-App\Object_detection_data\Peach_img</folder>
   <filename>Peach002016.png</filename>
-  <path>D:\Object_detection_data\obj\Peach_img</path>
   <source>
     <database>Unknown</database>
+    <annotation>Unknown</annotation>
+    <image>Unknown</image>
   </source>
   <size>
     <width>480</width>
     <height>322</height>
-    <depth/>
+    <depth></depth>
   </size>
   <segmented>0</segmented>
   <object>
     <name>Peach</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
+    <occluded>0</occluded>
     <bndbox>
       <xmin>192</xmin>
       <ymin>171</ymin>
@@ -25,9 +24,7 @@
   </object>
   <object>
     <name>Peach</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
+    <occluded>0</occluded>
     <bndbox>
       <xmin>89</xmin>
       <ymin>155</ymin>
@@ -37,9 +34,7 @@
   </object>
   <object>
     <name>Peach</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
+    <occluded>0</occluded>
     <bndbox>
       <xmin>64</xmin>
       <ymin>28</ymin>
@@ -49,9 +44,7 @@
   </object>
   <object>
     <name>Peach</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
+    <occluded>0</occluded>
     <bndbox>
       <xmin>250</xmin>
       <ymin>90</ymin>
@@ -61,9 +54,7 @@
   </object>
   <object>
     <name>Peach</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
+    <occluded>0</occluded>
     <bndbox>
       <xmin>25</xmin>
       <ymin>119</ymin>
@@ -73,9 +64,7 @@
   </object>
   <object>
     <name>Peach</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
+    <occluded>0</occluded>
     <bndbox>
       <xmin>164</xmin>
       <ymin>8</ymin>
@@ -85,9 +74,7 @@
   </object>
   <object>
     <name>Peach</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
+    <occluded>0</occluded>
     <bndbox>
       <xmin>198</xmin>
       <ymin>37</ymin>
@@ -97,9 +84,7 @@
   </object>
   <object>
     <name>Peach</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
+    <occluded>0</occluded>
     <bndbox>
       <xmin>130</xmin>
       <ymin>98</ymin>
@@ -109,9 +94,7 @@
   </object>
   <object>
     <name>Peach</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
+    <occluded>0</occluded>
     <bndbox>
       <xmin>12</xmin>
       <ymin>216</ymin>
@@ -121,9 +104,7 @@
   </object>
   <object>
     <name>Peach</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
+    <occluded>0</occluded>
     <bndbox>
       <xmin>300</xmin>
       <ymin>181</ymin>

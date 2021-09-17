@@ -1,0 +1,35 @@
+<annotation>
+  <folder>D:\Fruit-Ripeness-Detection-App\Object_detection_data\Peach_img</folder>
+  <filename>Peach001046.png</filename>
+  <source>
+    <database>Unknown</database>
+    <annotation>Unknown</annotation>
+    <image>Unknown</image>
+  </source>
+  <size>
+    <width>320</width>
+    <height>258</height>
+    <depth></depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Peach</name>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>92</xmin>
+      <ymin>32</ymin>
+      <xmax>168</xmax>
+      <ymax>116</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Peach</name>
+    <occluded>0</occluded>
+    <bndbox>
+      <xmin>22</xmin>
+      <ymin>122</ymin>
+      <xmax>107</xmax>
+      <ymax>204</ymax>
+    </bndbox>
+  </object>
+</annotation>
