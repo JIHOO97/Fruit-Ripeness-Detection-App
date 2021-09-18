@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.tensorflow.lite.examples.detection">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/fyp_icon"
+        android:label="fripe"
+        android:roundIcon="@drawable/fyp_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.ObjectDetection"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <activity android:name=".StartingActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetectorActivity"
+            android:label="@string/tfe_od_app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".RipenessActivity"
+            android:label="Ripeness Activity"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data android:name="android.max_aspect" android:value="2.1" />
+
+    </application>
+</manifest>

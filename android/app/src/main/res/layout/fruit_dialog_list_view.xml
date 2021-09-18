@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_corner_design"
+    android:backgroundTint="@color/app_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_popup_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="3dp"
+        android:paddingStart="4dp"
+        android:text="Fruits:"
+        android:textSize="30dp"
+        android:textColor="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/white"/>
+
+    <ListView
+        android:id="@+id/lv_assignment_users"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

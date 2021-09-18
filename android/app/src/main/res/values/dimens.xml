@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tfe_bottom_sheet_corner_radius">25dp</dimen>
+    <dimen name="tfe_bottom_sheet_top_padding">10dp</dimen>
+    <dimen name="starting_background_bottom_corner_radius">30dp</dimen>
+    <dimen name="starting_background_bottom_top_padding">15dp</dimen>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="#ffffff"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="-1.3"
+            android:scaleY="1.5"
+            android:translationY="-20dp"
+            app:srcCompat="@drawable/background4" />
+
+        <TextView
+            android:id="@+id/ripeness_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Ripeness"
+            android:textColor="#ffffff"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ripeness_text"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Detection"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="-30dp"
+        android:layout_weight="2"
+        android:adjustViewBounds="true"
+        android:background="@drawable/starting_background_bottom"
+        android:scaleType="centerCrop">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/real_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:src="@drawable/camera"
+            app:backgroundTint="#ffffff"
+            app:strokeColor="#000000"
+            app:strokeWidth="1dp" />
+
+        <TextView
+            android:id="@+id/real_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/real_time"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Real  Time"
+            android:textColor="#000" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/real_time_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:src="@drawable/gallery"
+            app:backgroundTint="#ffffff"
+            app:strokeColor="#000000"
+            app:strokeWidth="1dp" />
+
+        <TextView
+            android:id="@+id/gallery_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gallery"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Gallery"
+            android:textColor="#000" />
+
+    </RelativeLayout>
+
+</LinearLayout>

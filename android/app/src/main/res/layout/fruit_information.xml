@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/round_corner_design"
+    android:paddingHorizontal="15dp"
+    android:paddingVertical="15dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#fff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Attention"
+        android:textSize="30dp"
+        android:textColor="#DC143C"/>
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/app_color"/>
+
+    <TextView
+        android:id="@+id/information_unripe_fruit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="No such fruit in our database"
+        android:textSize="23dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/information_unripe_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="20dp"
+        android:textColor="@color/app_color"/>
+
+    <TextView
+        android:id="@+id/information_good_fruit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="No such fruit in our database"
+        android:textSize="23dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/information_good_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="20dp"
+        android:textColor="@color/app_color"/>
+
+</LinearLayout>
