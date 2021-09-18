@@ -22,7 +22,7 @@ implemented since these models have been researched to have relatively fast infe
 and accuracy.
 
 **2. Precisely calculate the percentage of ripeness of fruits**
-For the second objective, deep neural network models should be able to precisely detect the
+> For the second objective, deep neural network models should be able to precisely detect the
 ripeness of the detected fruits. More precisely, the models should be able to calculate the
 ripeness of the fruits with very similar colors differently, although they look the same in our
 eyes. In order to accomplish this objective, several factors should be considered to determine
@@ -30,7 +30,7 @@ the ripeness: size, weight, color characteristic, and more. Thus, separate model
 constructed and trained for each type of fruit, with thousands of ripe and unripe fruit images.
 
 **3. Provide a user-friendly and intuitive interface with high user-experience**
-Our last objective is to minimize the complexity and maximize the usability of the
+> Our last objective is to minimize the complexity and maximize the usability of the
 application. The goal of the application is to improve people’s lives, and this improvement
 cannot be achieved without constructing a suitable medium that people can use. No matter
 how efficient and accurate the object detection and ripeness classification models are, if the
